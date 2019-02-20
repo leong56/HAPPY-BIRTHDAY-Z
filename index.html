@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hello!</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="/style.css">
+    
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    <p>
+      <button onclick="handlers.displayLandName()">Generate a Land Name!</button>
+      <button onclick="handlers.clear()">Clear Box</button>
+      <button onclick="handlers.birthday()">Hello!</button>
+    </p>
+    <h1 id="randomLandName" onclick="handlers.birthdayTwo()">Land of...</h1>
+    <p id="bragging">Over half a million possible names!</p>
+    <p>Many lands were sourced from <a href = "http://thepageofhopes.tumblr.com/post/16514183005/homestuck-land-testguide">here</a>, though many more were independently sourced.</p>
+    <p>This Homestuck Land Name generator is brought to you by Leong.</p>
+    <div id="container">
+      <h4 id="namesBoxTitle">List of Names so far... <button onclick="handlers.clearList()">Clear List</button></h4>
+      <p id="namesBox"></p>
+    </div>    
+    <script src="/script.js"></script>
+  </body>
+</html>
