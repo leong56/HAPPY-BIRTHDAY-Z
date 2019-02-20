@@ -1,0 +1,92 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-weight: bold;
+  font-family: Courier;
+  margin: 4em;
+  background-color: #555555;
+}
+
+h1 {
+  color: black;
+  background-color: #C6C6C6;
+  padding: 15px;
+}
+
+p, h1 {
+  text-align: center;
+}
+
+p {
+  font-size: 12px;
+}
+
+button {
+  font-family: Courier;
+  font-size: 12px;
+  background-color: #C6C6C6;
+  padding: 5px; 
+}
+
+button:hover {
+  background-color: black;
+  color: #C6C6C6;
+}
+
+a {
+  color: inherit;
+}
+
+
+#bragging {
+  color: #cccccc;
+  font-size: 14px;
+}
+
+#namesBoxTitle {
+  margin-top: 20px;
+  background-color: #C6C6C6;
+  padding: 10px;
+  padding-bottom: 5px;
+  margin-bottom: 0px;
+}
+
+#namesBoxTitle button {
+  font-family: Courier;
+  font-size: 12px;
+  background-color: black;
+  color: white;
+  padding: 5px; 
+}
+
+#namesBoxTitle button:hover {
+  background-color: #C6C6C6;
+  color: black;
+}
+
+#container {
+  background-color: #C6C6C6;  
+}
+
+#namesBox {
+  text-align: left;
+}
+
+li {
+  font-size: 14px;
+  padding: 5px;
+  background-color: #C6C6C6;
+  color: black;
+  list-style-type: square;
+}
+
+#namesBox li:last-child {
+  color: #C6C6C6;
+  background-color: black;
+}
+
+
+::selection {
+  color: #4bec13;
+  background-color: #000000;
+}
